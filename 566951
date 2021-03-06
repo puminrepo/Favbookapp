@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <style>
+            label {
+            color:orange;
+            padding-left: 100px;
+            }
+            button {
+            margin-left: 100px;
+            }
+        </style>
+    </head>
+    <body>
+      <div id ="app" style="background-color:grey;border-radius:20px;">
+        <form method="get" action ="http://localhost:8080/create">
+            <label for="username">username:</label>
+            <input type ="text" name= "username"><br>
+            <label for="favbook">favorite book:</label>
+            <input type ="text" name= "favbook"><br>
+            <button type ="submit">submit</button>
+        </form>
+      </div>
+    </body> 
+</html>
